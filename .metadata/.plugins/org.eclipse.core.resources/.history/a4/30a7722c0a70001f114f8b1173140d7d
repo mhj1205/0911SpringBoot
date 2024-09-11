@@ -1,0 +1,5 @@
+package org.comstudy.myapp.controller;
+
+public class HomeController {
+
+}

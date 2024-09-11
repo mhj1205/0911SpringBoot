@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.com">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>Memo List</h1>
+<p>id: <span th:text="${memoList[0\].id}"></span></p>
+<p>title: <span th:text="${memoList[1].title}"></span></p>
+<p>content: <span th:text="${memoList[2].content}"></span></p>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.com">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>Memo List</h1>
+<%
+	for(i=0;i<20;i++) { 
+%>
+<p>id: <span th:text="${memoList[i].id}"></span></p>
+<p>title: <span th:text="${memoList[i].title}"></span></p>
+<p>content: <span th:text="${memoList[i].content}"></span></p>
+<%
+	}
+%>
+
+</body>
+</html>
